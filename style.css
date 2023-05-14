@@ -9,3 +9,34 @@ body {
 .logo{
     width: 20%;
 }
+
+#contenedor_mensaje{
+    width: 40%;
+    margin: 10% auto;
+}
+
+.mensaje{
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 8px 15px;
+}
+
+.texto_naranja{
+    font-family: 'Source Code Pro', monospace;
+    color: orange;
+}
+
+#input_mensaje{
+    font-family: 'Source Code Pro', monospace;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
