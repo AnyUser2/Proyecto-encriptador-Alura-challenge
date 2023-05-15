@@ -1,5 +1,9 @@
 body {
-    background: #000000;
+    background: #222222;
+}
+
+main{
+    padding: 0 100px;
 }
 
 .logo_header{
@@ -10,9 +14,19 @@ body {
     width: 20%;
 }
 
+#contenedor_principal{
+    width: 50%;
+    height: 250px;
+    margin:  80px auto;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+}
+
 #contenedor_mensaje{
-    width: 40%;
+    width: 80%;
     margin: 10% auto;
+    position: relative;
 }
 
 .mensaje{
@@ -22,6 +36,7 @@ body {
     display: block;
     position: relative;
     padding: 8px 15px;
+    border: orange 1px solid;
 }
 
 .texto_naranja{
@@ -33,7 +48,7 @@ body {
     font-family: 'Source Code Pro', monospace;
     position: absolute;
     top: 0;
-    left: 15px;
+    left: 0;
     margin-top: 8px;
     background-color: transparent;
     border: none;
