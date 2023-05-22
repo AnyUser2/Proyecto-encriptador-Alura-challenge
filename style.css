@@ -24,17 +24,17 @@ main{
 }
 
 #contenido{
-    width: 80%;
+    width: 1000px;
     margin: 0 auto;
-    padding: 0 auto;
+    
 
 }
 
 #contenedor_principal{
     margin: 125px 0;
     display: inline-block;
-    width: 55%;
-    height: 250px;
+    width: 400px;
+    height: 230px;
     background-color: white;
     border-radius: 25px;
     position:relative;
@@ -44,20 +44,19 @@ main{
 #contenedor_mensaje{
     width: 100%;
     height: 100%;
-    margin: 2em auto;
+    margin: 3em auto;
     position: absolute;
     
 }
 
 .mensaje{
-    
     background-color: white;
     border-radius: 25px;
-    width: 85.8%;
+    width: 75.8%;
     position: absolute;
     padding: 6px 2%;
     border: orange 1px solid;
-    margin: 0 5% 0 5%;
+    margin: 0 10% 0 10%;
 }
 
 .texto_naranja{
@@ -79,17 +78,43 @@ main{
 
 #botones{
     display: inline-block;
-    width: 50%;
-    margin: 200px auto 0 auto;
+    width: 80%;
+    margin: 18% 10% 0 10%;
+}
+
+button{
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-family: 'Source Code Pro', monospace;
+    padding: 5%;
+    display: inline-block;
+    width: 40%;
+}
+
+#btn_encript{
+    margin-right: 9%;
+}
+
+#btn_desencript{
+    margin-left: 9%;
 }
 
 #contenedor_encriptado{
     background-color: white;
-    width: 30%;
+    width: 400px;
     height: 500px;
     display: inline-block;
     border-radius: 25px;
-    margin-left: 14%;
+    margin-left: 190px;
+}
+
+#img_no_texto{
+    position: absolute;
+    width: 200px;
+    margin: 0 100px;
+    margin-top: 100px;
 }
 
 footer{
