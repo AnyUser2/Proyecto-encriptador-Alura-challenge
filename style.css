@@ -4,6 +4,7 @@ body {
 
 main{
     padding: 0 100px;
+    
 }
 
 .logo_header{
@@ -15,12 +16,12 @@ main{
 }
 
 #contenedor_principal{
+    display: inline-block;
     width: 55%;
     height: 250px;
-    margin:  80px auto;
     background-color: white;
     border-radius: 25px;
-    position: absolute;
+    position:relative
 }
 
 #contenedor_mensaje{
@@ -35,7 +36,6 @@ main{
     background-color: white;
     border-radius: 25px;
     width: 85.8%;
-    /*display: block;*/
     position: absolute;
     padding: 6px 2%;
     border: orange 1px solid;
@@ -57,4 +57,17 @@ main{
     border: none;
     outline: none;
     width: calc(100% - 2em);
+}
+
+#contenedor_encriptado{
+    background-color: white;
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+footer{
+    height: 120px;
+    background: url(imagenes/bg_footer.jpg);
 }
