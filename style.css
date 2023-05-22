@@ -15,7 +15,7 @@ main{
 }
 
 #contenedor_principal{
-    width: 50%;
+    width: 55%;
     height: 250px;
     margin:  80px auto;
     background-color: white;
@@ -24,19 +24,22 @@ main{
 }
 
 #contenedor_mensaje{
-    width: 80%;
-    margin: 10% auto;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 2em auto;
+    position: absolute;
 }
 
 .mensaje{
+    
     background-color: white;
     border-radius: 25px;
-    width: 100%;
-    display: block;
-    position: relative;
-    padding: 8px 15px;
+    width: 85.8%;
+    /*display: block;*/
+    position: absolute;
+    padding: 6px 2%;
     border: orange 1px solid;
+    margin: 0 5% 0 5%;
 }
 
 .texto_naranja{
@@ -45,13 +48,13 @@ main{
 }
 
 #input_mensaje{
+    font-size: 16px;
     font-family: 'Source Code Pro', monospace;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 8px;
+    top: 3px;
+    left: 1em;
     background-color: transparent;
     border: none;
     outline: none;
-    width: 100%;
+    width: calc(100% - 2em);
 }
