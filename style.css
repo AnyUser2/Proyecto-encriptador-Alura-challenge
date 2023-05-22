@@ -2,9 +2,17 @@ body {
     background: #222222;
 }
 
+header{
+    background-color: #333333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 160px;
+}
+
 main{
-    padding: 0 100px;
-    
+    position: relative;
+    margin-top: 220px;
 }
 
 .logo_header{
@@ -12,10 +20,18 @@ main{
 }
 
 .logo{
-    width: 20%;
+    width: 300px;
+}
+
+#contenido{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+
 }
 
 #contenedor_principal{
+    /*margin: 125px 0;*/
     display: inline-block;
     width: 55%;
     height: 250px;
@@ -59,15 +75,23 @@ main{
     width: calc(100% - 2em);
 }
 
+#botones{
+    display: inline-block;
+    width: 50%;
+    margin: 200px auto 0 auto;
+}
+
 #contenedor_encriptado{
     background-color: white;
     width: 30%;
     height: 500px;
     display: inline-block;
     border-radius: 25px;
+    margin-left: 14%;
 }
 
 footer{
-    height: 120px;
+    margin-top: 60px;
+    height: 160px;
     background: url(imagenes/bg_footer.jpg);
 }
