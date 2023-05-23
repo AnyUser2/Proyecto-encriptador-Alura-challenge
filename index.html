@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <script type="text/javascript" src="script.js"></script>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css"> 
@@ -11,56 +12,37 @@
         <title>Encriptador de texto</title>
     </head>
     <body>
-
-                <header>
-
-                    <div class="logo_header">
-                        
-                        <h1><img src="imagenes/logo.png" alt="Logo encriptador" class="logo"></h1>
-
+        <header>
+            <div class="logo_header">                        
+                <h1><img src="./imagenes/logo.png" alt="Logo encriptador" class="logo"></h1>
+            </div>
+        </header>
+        <main>
+            <div id="contenido">
+                <div id="contenedor_principal">
+                    <div  id="contenedor_mensaje">
+                        <label class="mensaje">
+                            <input type="text" id="input_mensaje" autocomplete="off" placeholder="Ingrese el mensaje">
+                        </label>
+                        <div id="botones">
+                            <button id="btn_encript" onclick="encriptar()">Encriptar</button>
+                            <button id="btn_desencript" onclick="desencriptar()">Desencriptar</button>
+                        </div>
                     </div>
-
-                </header>
-
-                <main>
-
-                   <div id="contenido">
-                       <div id="contenedor_principal">
-                            <div  id="contenedor_mensaje">
-                                                               
-                                    <label class="mensaje">
-                                 
-                                    <input type="text" id="input_mensaje" autocomplete="off" placeholder="Ingrese el mensaje">
-                                </label>
-                                <div id="botones">
-                                    <button id="btn_encript" onclick="encriptar()">Encriptar</button>
-                                    <button id="btn_desencript" onclick="desencriptar()">Desencriptar</button>
-                                    
-                                </div>
-                            
-
-                            </div>
-                            
-
-                    </div>
-                  
-                    <div id="contenedor_encriptado">
-                        <img src="imagenes/lupa.png" alt="Imagen de lupa" id="img_no_texto">
-                        <p>Aún no hay ningún mensaje.</p>
-                        <textarea cols="45" rows="25" readonly id="impresion"></textarea>
-                        <button id="copiar" onclick="copiar()">Copiar</button>
-                    </div>
-
-
                 </div>
-                </main>
-
-                <footer>
-                    <div id="logo_footer">
-                    <h1><img src="imagenes/logo_oscuro.png" alt="Logo encriptador" class="logo"></h1>
-                    <p id="separador">Hecho por Jeronimo Hernandez Lopera</p>
+                <div id="contenedor_encriptado">
+                    <img src="./imagenes/lupa.png" alt="Imagen de lupa" id="img_no_texto">
+                    <p>Aún no hay ningún mensaje.</p>
+                    <textarea cols="45" rows="25" readonly id="impresion"></textarea>
+                    <button id="copiar" onclick="copiar()">Copiar</button>
                 </div>
-                </footer>
+            </div>
+        </main>
+        <footer>
+            <div id="logo_footer">
+                <h1><img src="./imagenes/logo_oscuro.png" alt="Logo encriptador" class="logo" id="logo_inferior"></h1>
+                <p id="separador">Hecho por Jeronimo Hernandez Lopera</p>
+            </div>
+        </footer>
     </body>
-
 </html>

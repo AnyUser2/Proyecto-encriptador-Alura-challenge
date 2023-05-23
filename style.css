@@ -199,3 +199,73 @@ footer{
     font-family: 'Source Code Pro', monospace;
     font-size: 11px;
 }
+
+@media (max-width: 912px) {
+    #contenido{
+        width: auto;
+    }
+
+    #contenedor_principal{
+        width: 80%;
+        margin: 0 10%;
+        margin-bottom: 10%;
+    }
+    #contenedor_encriptado{
+        width: 80%;
+        margin: 0 10%;
+
+    }
+
+    #logo_inferior{
+        width: 60%;
+        position: relative;
+        margin: 0 20%;
+    }
+
+    #img_no_texto{
+        width: 40%;
+        margin: 0 30%;
+        margin-top: 40%;
+        position: relative;
+    }
+
+    #contenedor_encriptado p{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20%;
+        position: relative;
+    }
+
+    textarea{
+        width: 70%;     
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        display: none;
+        top: 40%;
+    }
+
+    #copiar{
+        width: 50%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 92%
+      
+    }
+
+    button{
+        width: 43%;
+        padding: 1em 2% 1em 2%;
+    }
+
+    #btn_desencript{       
+        margin-left: 1.5%;
+    }
+
+    #btn_encript{   
+        margin-left: 1.5%;
+    }
+}
