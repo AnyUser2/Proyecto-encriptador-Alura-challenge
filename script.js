@@ -34,3 +34,8 @@ function desencriptar(){
     }
     document.getElementById("input_mensaje").value = null;
 }
+function copiar(){
+    var contenido = document.querySelector("#impresion");
+    contenido.select();
+    document.execCommand("copy");
+}

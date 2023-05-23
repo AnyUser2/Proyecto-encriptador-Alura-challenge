@@ -20,6 +20,7 @@ main{
 }
 
 .logo{
+    display: inline;
     width: 300px;
 }
 
@@ -100,12 +101,26 @@ button{
     padding: 5.5%;
 }
 
+#btn_encript:active{
+    background-color: darkorange;
+}
+
 #btn_encript{
-    transition: 0.5s;
+    transition: 0.2s;
     margin-right: 9%;
 }
 
+#btn_desencript:hover{
+    background-color: #FFAC33;
+    padding: 5.5%;
+}
+
+#btn_desencript:active{
+    background-color: darkorange;
+}
+
 #btn_desencript{
+    transition: 0.2s;
     margin-left: 9%;
 }
 
@@ -144,7 +159,17 @@ textarea{
     display: none;
 }
 
+#copiar:hover{
+    background-color: #FFAC33;
+    padding: 14px;
+}
+
+#copiar:active{
+    background-color: darkorange;
+}
+
 #copiar{
+    transition: 0.2s;
     position: absolute;
     width: 150px;
     padding: 13px;
@@ -159,3 +184,18 @@ footer{
     background: url(imagenes/bg_footer.jpg);
 }
 
+#logo_footer{
+    position: absolute;
+    width: 300px;
+    margin: 0 calc((100% - 300px) / 2);
+    margin-top: 20px;
+    display: inline;
+}
+
+#separador{
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 11px;
+}
