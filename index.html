@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <script type="text/javascript" src="script.js"></script>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,7 @@
                 <header>
 
                     <div class="logo_header">
-
+                        
                         <h1><img src="imagenes/logo.png" alt="Logo encriptador" class="logo"></h1>
 
                     </div>
@@ -26,17 +27,17 @@
                    <div id="contenido">
                        <div id="contenedor_principal">
                             <div  id="contenedor_mensaje">
-                                <form>                                
+                                                               
                                     <label class="mensaje">
-                                    <span class="texto_naranja">Ingrese el mensaje</span>
-                                    <input type="text" id="input_mensaje" autocomplete="off">
+                                 
+                                    <input type="text" id="input_mensaje" autocomplete="off" placeholder="Ingrese el mensaje">
                                 </label>
                                 <div id="botones">
-                                    <button id="btn_encript">Encriptar</button>
-                                    <button id="btn_desencript">Desencriptar</button>
+                                    <button id="btn_encript" onclick="encriptar()">Encriptar</button>
+                                    <button id="btn_desencript" onclick="desencriptar()">Desencriptar</button>
                                     
                                 </div>
-                            </form>
+                            
 
                             </div>
                             
@@ -45,6 +46,9 @@
                   
                     <div id="contenedor_encriptado">
                         <img src="imagenes/lupa.png" alt="Imagen de lupa" id="img_no_texto">
+                        <p>Aún no hay ningún mensaje.</p>
+                        <textarea cols="45" rows="25" readonly id="impresion"></textarea>
+                        <button id="copiar" onclick="copiar()">Copiar</button>
                     </div>
 
 
